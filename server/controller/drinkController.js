@@ -11,12 +11,10 @@ drinkController.get("/", (req, res) => {
 });
 
 drinkController.post("/", (req, res) => {
-  // const data = req.body;
-  const newDrink = Drink.addDrink(
-    "Rubicon",
-    "https://groceries.morrisons.com/productImages/387/387762011_0_640x640.jpg?identifier=c28b06af1a4d24f666f9f86fd81ccbc0"
-  );
-  console.log(newDrink);
+  const data = req.body;
+  console.log(data);
+  const newDrink = Drink.addDrink(data);
+  res.status(201).send(newDrink);
 });
 
 module.exports = drinkController;

@@ -4,12 +4,11 @@ class Drink {
   constructor(data) {
     this.name = data.name;
     this.url = data.url;
-    // let checkURL = [];
   }
 
-  static addDrink(name, url) {
+  static addDrink(data) {
     // checkURL.push(url);
-    let newDrink = new Drink({ name: name, url: url });
+    let newDrink = new Drink({ ...data });
     drinkData.push(newDrink);
     return newDrink;
   }
