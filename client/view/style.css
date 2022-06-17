@@ -2,10 +2,21 @@ img {
   display: flex;
   margin: auto;
   max-width: 60vw;
-  max-height: 80vh;
+  max-height: 50vh;
 }
 
 button {
   display: flex;
   margin: auto;
+}
+
+.mainHeader {
+  display: flex;
+  justify-content: center;
+}
+
+.mainBody {
+  display: flex;
+  margin: auto;
+  height: 70vh;
 }
