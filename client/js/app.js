@@ -38,7 +38,7 @@ function btnClick() {
 getFirstDrink();
 button.addEventListener("click", btnClick);
 
-const addDrink = async (e) => {
+function addDrink(e) {
   e.preventDefault();
 
   const drinkData = {
@@ -48,8 +48,6 @@ const addDrink = async (e) => {
 
   checkURL.push(JSON.stringify(drinkData));
 
-  console.log(checkURL);
-
   const options = {
     method: "POST",
     body: JSON.stringify(drinkData),
@@ -58,9 +56,11 @@ const addDrink = async (e) => {
     },
   };
 
-  const response = await fetch("http://localhost:3005/drinks", options);
-  const data = await response.json();
-  console.log(data);
-};
+  fetch("http://localhost:3005/drinks", options)
+    .then((r) => r.json())
+    .catch((err) => {
+      console.log(err);
+    });
+}
 
 submitBtn.addEventListener("click", addDrink);
