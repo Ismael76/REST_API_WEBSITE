@@ -7,7 +7,6 @@ class Drink {
   }
 
   static addDrink(data) {
-    // checkURL.push(url);
     let newDrink = new Drink({ ...data });
     drinkData.push(newDrink);
     return newDrink;
