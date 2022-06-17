@@ -17,7 +17,7 @@ const drinks = [
   },
   {
     name: "Coke",
-    url: "https://delivery.pret.co.uk/dw/image/v2/ABBI_PRD/on/demandware.static/-/Sites-pret-uk-master-catalog/default/dw1342af06/products/Cold%20Drinks/UK001022_RegularBottle_01_607.jpg?sw=584&sh=584",
+    url: "../../server/data/images/coke.jpg",
   },
   {
     name: "BubbleTea",
@@ -39,7 +39,6 @@ const drinks = [
     name: "Monster",
     url: "https://images.jumpseller.com/store/la-carreta-supermarkets1/4795218/MonsterOriginal2.jpg?1596568155",
   },
-
 ];
 
 module.exports = drinks;
