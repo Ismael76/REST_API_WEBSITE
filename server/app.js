@@ -17,4 +17,8 @@ app.get("/images", (req, res) => {
 
 app.use("/drinks", drinksRouter);
 
+app.post("/", (req, res) => {
+  res.status(405).send("Not allowd!");
+});
+
 module.exports = app;
