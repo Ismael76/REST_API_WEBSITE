@@ -1,19 +1,19 @@
 const drinks = [
   {
     name: "Lucozade",
-    url: "https://images.ctfassets.net/6jpeaipefazr/6gFTJabEOJiWfg5u2wpiNb/f522f8e6f249c9db1694b0cf4501784e/P12-5054267010710.jpg?w=1080&h=1080",
+    url: "../../server/data/images/Lucozade.jpg",
   },
   {
     name: "Tango",
-    url: "https://s3-eu-west-1.amazonaws.com/glencrest/i/pmi/500353_main.jpg?_t=194252597",
+    url: "../../server/data/images/tango.jpg",
   },
   {
     name: "Fanta Fruit Twist",
-    url: "https://bwhdrinks.co.uk/wp-content/uploads/2016/11/Fanta-Fruit-Twist-500ml.jpg",
+    url: "../../server/data/images/fantafruittwist.jpg",
   },
   {
     name: "Dr Pepper",
-    url: "https://assets.sainsburys-groceries.co.uk/gol/3300527/1/640x640.jpg",
+    url: "../../server/data/images/Drpepper.jpg",
   },
   {
     name: "Coke",
@@ -21,23 +21,23 @@ const drinks = [
   },
   {
     name: "BubbleTea",
-    url: "https://upload.wikimedia.org/wikipedia/commons/a/a2/Bubble_Tea.png",
+    url: "../../server/data/images/BubbleTea.jpg",
   },
   {
     name: "RedBull",
-    url: "https://n1.sdlcdn.com/imgs/d/m/c/RED-BULL-Energy-Drink-Mixed-SDL959599751-1-769f8.jpg",
+    url: "../../server/data/images/redbull.jpg",
   },
   {
     name: "Orange Juice",
-    url: "https://i5.walmartimages.com/asr/f5a3089f-4f7a-41d6-8fdb-9dc60f8682f9.8b6d67ef80057ea1b152825520fe152d.jpeg",
+    url: "../../server/data/images/orangejuice.jpg",
   },
   {
     name: "Gatorade",
-    url: "https://cdn.gardengrocer.com/attachments/photos/high_res/1885.jpg?8013",
+    url: "../../server/data/images/gatorade.jpg",
   },
   {
     name: "Monster",
-    url: "https://images.jumpseller.com/store/la-carreta-supermarkets1/4795218/MonsterOriginal2.jpg?1596568155",
+    url: "../../server/data/images/monster.jpg",
   },
 ];
 
