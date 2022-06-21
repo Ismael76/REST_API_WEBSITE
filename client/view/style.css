@@ -57,3 +57,14 @@ button:hover {
   color: red;
   font-weight: 700;
 }
+
+.mainHeader {
+  display: flex;
+  justify-content: center;
+}
+
+.mainBody {
+  display: flex;
+  margin: auto;
+  height: 70vh;
+}
