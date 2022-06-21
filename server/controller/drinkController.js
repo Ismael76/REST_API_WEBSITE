@@ -4,7 +4,7 @@ const drinkController = express();
 
 var bodyParser = require("body-parser");
 
-var jsonParser = bodyParser.json();
+// var jsonParser = bodyParser.json();
 
 const Drink = require("../model/drink");
 
@@ -14,8 +14,9 @@ drinkController.get("/", (req, res) => {
   res.send(drinksData);
 });
 
-drinkController.post("/", jsonParser, (req, res) => {
+drinkController.post("/", (req, res) => {
   data = req.body;
+  console.log(data);
   const newDrink = Drink.addDrink(data);
   res.status(201).send(newDrink);
 });

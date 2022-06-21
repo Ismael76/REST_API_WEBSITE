@@ -1,11 +1,59 @@
-img {
+@import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
+body {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to top, rgb(238, 220, 220), rgb(163, 163, 230));
+  background-repeat: no-repeat;
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  border: 1px solid black;
+  box-shadow: 5px 5px 20px gray;
+  display: flex;
+  flex-direction: column;
+  height: 75%;
+  width: 50%;
   margin: auto;
-  max-width: 60vw;
-  max-height: 80vh;
+  padding: 2rem;
+  margin-top: 2rem;
+}
+
+img {
+  height: 25rem;
+  width: 25rem;
+  margin: auto;
 }
 
 button {
   display: flex;
   margin: auto;
+  border-radius: 10px;
+  outline: none;
+  border: 1px solid gray;
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-transform: uppercase;
+}
+
+button:hover {
+  background-color: rgba(133, 134, 134, 0.527);
+}
+
+#drinkName {
+  text-align: center;
+  font-family: "Staatliches", cursive;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+#errorMsg {
+  text-align: center;
+  color: red;
+  font-weight: 700;
 }
