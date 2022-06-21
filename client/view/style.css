@@ -68,3 +68,17 @@ button:hover {
   margin: auto;
   height: 70vh;
 }
+
+input {
+  border-radius: 5px;
+  outline: none;
+  border: solid 2px gray;
+  padding: 0.3rem;
+}
+
+@media screen and (max-width: 760px) {
+  img {
+    height: 10rem;
+    width: 10rem;
+  }
+}
